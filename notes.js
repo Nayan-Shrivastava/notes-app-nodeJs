@@ -1,3 +1,4 @@
+
 const fs = require('fs');
 const chalk = require('chalk')
 const getNotes = () => {
@@ -75,4 +76,5 @@ module.exports = {
     removeNote,
     listNotes,
     readNotes
+
 }
